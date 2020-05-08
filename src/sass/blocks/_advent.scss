@@ -1,0 +1,41 @@
+.advent {
+	background-color: #f6f6f6;
+	padding: 70px 0 78px 0;
+	&__header {
+		color: #0d0d0d;
+		font-size: 30px;
+		font-weight: 700;
+		text-align: center;
+		line-height: 30px;
+	}
+	&__wrapper {
+		margin-top: 65px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__block {
+		width: 241px;
+		text-align: center;
+		img {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 38px;
+		}
+	}
+	&__text {
+		color: #0d0d0d;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 18px;
+		margin-bottom: 25px;
+	}
+	&__descr {
+		color: #0d0d0d;
+		font-size: 14px;
+		font-weight: 400;
+		a {
+			color: #ff0000;
+			text-decoration: underline;
+		}
+	}
+}
