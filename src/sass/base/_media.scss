@@ -1,0 +1,124 @@
+@media (max-width: 991px) {
+	.header {
+		flex-wrap: wrap;
+		justify-content: space-around;
+		&__logo {
+			margin: 0 20px 20px 20px;
+		}
+		&__official {
+			margin: 0 20px 20px 20px;
+		}
+		&__contacts {
+			margin: 0 20px 20px 20px;
+		}
+	}
+	.promo {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.advent {
+		padding: 70px 20px 78px 20px;
+		&__wrapper {
+			margin-top: 30px;
+		}
+		&__block {
+			max-width: 30%;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.header {
+		position: relative;
+		flex-direction: column;
+		align-items: flex-end;;
+		&__logo{
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	}
+	.promo {
+		padding: 21px 20px 50px 20px;
+		&__wrapper {
+			align-items: flex-end;
+		}
+		&__header {
+			font-size: 36px;
+			line-height: 36px;
+		}
+		&__subheader {
+			font-size: 20px;
+			line-height: 20px;
+		}
+		&__icons {
+			width: 100%;
+			display: flex;
+			justify-content: flex-end;
+		}
+	}
+	.advent {
+		&__wrapper {
+			flex-direction: column;
+			align-items: center;
+		}
+		&__block {
+			width: 80%;
+			max-width: none;
+			margin-bottom: 20px;
+			img {
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+@media (max-width: 575px) {
+	.header {
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		&__logo{
+			position: relative;
+			display: block;
+			margin: 0 20px 20px 20px;
+		}
+	}
+	.promo {
+		&__wrapper {
+			margin-top: 20px;
+			align-items: center;
+		}
+		&__header {
+			font-size: 23px;
+			text-align: center;
+		}
+		&__subheader {
+			font-size: 18px;
+			text-align: center;
+		}
+		&__link {
+			display: block;
+			text-align: center;
+		}
+		&__icons {
+			margin-top: 20px;
+			justify-content: center;
+		}
+		&__icon {
+			font-size: 12px;
+		}
+	}
+	.button_main {
+		width: 240px;
+		height: 40px;
+		font-size: 15px;
+		margin-top: 35px;
+	}
+	.advent {
+		&__header {
+			font-size: 23px;
+		}
+		&__block {
+			width: 100%;
+		}
+	}
+}
