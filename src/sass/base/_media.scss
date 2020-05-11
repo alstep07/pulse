@@ -1,3 +1,19 @@
+@media (max-width: 1200px) {
+	.carousel {
+		&__inner {
+			width: 90%;
+			img {
+				width: 100%;
+			}
+		}
+		.prev {
+			left: -15px;
+		}
+		.next {
+			right: -15px;
+		}
+	}
+}
 @media (max-width: 991px) {
 	.header {
 		flex-wrap: wrap;
@@ -24,6 +40,15 @@
 		}
 		&__block {
 			max-width: 30%;
+		}
+	}
+	.consult {
+		padding: 50px 20px;
+	}
+	.carousel {
+		.prev,
+		.next {
+			display: none;
 		}
 	}
 }
@@ -68,6 +93,9 @@
 				margin-bottom: 10px;
 			}
 		}
+	}
+	.title_left {
+		font-size: 28px;
 	}
 }
 @media (max-width: 575px) {
@@ -128,5 +156,23 @@
 		&__descr {
 			font-size: 16px;
 		}
+	}
+	.consult {
+		min-height: 0;
+		padding: 60px 15px 90px 15px;
+		&__descr {
+			font-size: 16px;
+			margin-top: 25px;
+		}
+	}
+	.title_left {
+		font-size: 23px;
+		line-height: 35px;
+	}
+	.feed-form {
+		width: 100%;
+		max-width: 300px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
