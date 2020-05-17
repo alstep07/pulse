@@ -22,7 +22,7 @@
 		line-height: 48px;
 		transform: skewX(-25deg);
 		cursor: pointer;
-		transition: 0.3s all;
+		transition: 0.5s all;
 		&:hover {
 			box-shadow: 3px 3px 15px $main-color;
 			border: none;
@@ -30,6 +30,9 @@
 
 		div {
 			transform: skew(25deg);
+			.points {
+				display: none;
+			}
 		}
 		&_active {
 			color: #fff;

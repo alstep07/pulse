@@ -51,6 +51,19 @@
 			display: none;
 		}
 	}
+	.catalog {
+		padding-left: 15px;
+		padding-right: 15px;
+		&__tab {
+			width: 28%;
+		}
+		&__content {
+			justify-content: space-around;
+		}
+		&-item {
+			margin: 0 20px 20px 20px;
+		}
+	}
 }
 @media (max-width: 767px) {
 	.header {
@@ -96,6 +109,31 @@
 	}
 	.title_left {
 		font-size: 28px;
+	}
+	.catalog {
+		&__tab {
+			transition: 0s all;
+			transition: width 0.5s;
+			width: 17%;
+			span {
+				display: none;
+			}
+			div {
+				.points {
+					display: inline;
+				}
+			}
+
+			&_active {
+				width: 60%;
+				span {
+					display: block;
+				}
+			}
+		}
+	}
+	.title {
+		font-size: 25px;
 	}
 }
 @media (max-width: 575px) {

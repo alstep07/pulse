@@ -1,4 +1,5 @@
 
+@import 'blocks/feed';
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'base/variables';
@@ -8,8 +9,9 @@
 @import 'base/titles';
 @import 'blocks/consult';
 @import 'blocks/_forms';
-@import 'base/media';
 @import 'blocks/catalog';
+@import 'base/media';
+
 
 
 * {
