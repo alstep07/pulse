@@ -1,5 +1,5 @@
 const slider = tns({
-	speed: 1200,
+	speed: 600,
 	container: ".carousel__inner",
 	items: 1,
 	slideBy: "page",
@@ -50,3 +50,22 @@ function toggleSlide(item) {
 
 toggleSlide(".catalog-item__back");
 toggleSlide(".catalog-item__link");
+
+//modal
+
+$("[data-modal=consultation]").on("click", function () {
+	$(".overlay, #consultation").fadeIn("slow");
+});
+
+$(".modal__close").on("click", function () {
+	$(".overlay, #consultation, #thanks, #order").fadeOut("slow");
+});
+
+$(".button_mini").each(function (i) {
+	$(this).on("click", function () {
+		$("#order .modal__descr").text(
+			$(".catalog-item__subtitle").eq(i).text()
+		);
+		$(".overlay, #order").fadeIn("slow");
+	});
+});

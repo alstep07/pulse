@@ -43,14 +43,14 @@
 	&__content {
 		margin-top: 60px;
 		display: none;
-		justify-content: space-between;
+		justify-content: flex-start;
         flex-wrap: wrap;
         &_active {
             display: flex;
         }
 	}
 	&-item {
-		margin-bottom: 20px;
+		margin: 0 8px 20px 8px;
 		overflow: hidden;
 		width: 300px;
 		min-height: 440px;
