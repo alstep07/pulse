@@ -56,6 +56,10 @@
 		padding-right: 15px;
 		&__tab {
 			width: 28%;
+			&:hover {
+				box-shadow: none;
+				border: 2px solid #d0d0d0;
+			}
 		}
 		&__content {
 			justify-content: space-around;
@@ -68,6 +72,18 @@
 		padding: 0 20px;
 		&__content {
 			padding-right: 0;
+		}
+	}
+	.button {
+		&:hover {
+			box-shadow: none;
+		}
+	}
+	.footer {
+		&__social-item {
+			&:hover {
+				box-shadow: none;
+			}
 		}
 	}
 }
@@ -151,6 +167,12 @@
 		&__content {
 			margin: 20px 0;
 			text-align: center;
+		}
+	}
+	.modal {
+		&__close {
+			top: 40px;
+			right: -40px;
 		}
 	}
 }
@@ -239,6 +261,12 @@
 		}
 		&__address {
 			font-size: 18px;
+		}
+	}
+	.modal {
+		&__close {
+			top: -40px;
+			right: 40px;
 		}
 	}
 }

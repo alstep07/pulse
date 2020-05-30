@@ -1,5 +1,5 @@
 .overlay {
-    display: none;
+	display: none;
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
@@ -19,30 +19,40 @@
 		position: absolute;
 		top: 0;
 		right: -40px;
-        font-size: 41px;
-        line-height: 21px;
-        color: $main-color;
-        &:hover {
-            cursor: pointer;
-        }
+		font-size: 41px;
+		line-height: 21px;
+		color: $main-color;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	&__subtitle {
+		color: #0d0d0d;
+		font-size: 18px;
+		font-weight: 700;
+		text-align: center;
+	}
+	&__descr {
+		color: #0d0d0d;
+		font-size: 14px;
+		font-weight: 500;
+		text-align: center;
+	}
+	&_mini {
+		min-height: 140px;
+	}
+	.error {
+		border: 1px solid red;
     }
-    &__subtitle {
-        color: #0d0d0d;
-        font-size: 18px;
-        font-weight: 700;
+    label.error {
+        border: none;
         text-align: center;
-    }
-    &__descr {
-        color: #0d0d0d;
-        font-size: 14px;
-        font-weight: 500;
-        text-align: center;
-    }
-    &_mini {
-        min-height: 140px;
+        margin-bottom: 15px;
     }
 }
 
-#consultation, #order, #thanks {
-    display: none;
+#consultation,
+#order,
+#thanks {
+	display: none;
 }

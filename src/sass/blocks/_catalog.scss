@@ -22,9 +22,9 @@
 		line-height: 48px;
 		transform: skewX(-25deg);
 		cursor: pointer;
-		transition: 0.5s all;
+		transition: 0.3s all;
 		&:hover {
-			box-shadow: 3px 3px 15px $main-color;
+			box-shadow: 3px 3px 15px #0d0d0d;
 			border: none;
 		}
 
