@@ -31,4 +31,9 @@
 			text-decoration: underline;
 		}
 	}
+	&__icon_animated {
+		&:hover {
+			animation: heartbeat 1.3s ease infinite;
+		}
+	}
 }

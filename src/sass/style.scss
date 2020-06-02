@@ -1,26 +1,26 @@
-
-@import 'base/variables';
-@import 'blocks/modal';
-@import 'blocks/footer';
-@import 'blocks/feed';
-@import 'blocks/header';
-@import 'blocks/promo';
-@import 'blocks/carousel';
-@import 'blocks/buttons';
-@import 'blocks/advent';
-@import 'base/titles';
-@import 'blocks/consult';
-@import 'blocks/_forms';
-@import 'blocks/catalog';
-@import 'base/media';
-
-
+@import "base/animations";
+@import "base/variables";
+@import "base/titles";
 
 * {
-    font-family: 'Museo Sans Cyrl', sans-serif;
+	font-family: "Museo Sans Cyrl", sans-serif;
 }
 .container {
-    position: relative;
-    max-width: 950px;
-    margin: 0 auto;
+	position: relative;
+	max-width: 950px;
+	margin: 0 auto;
 }
+
+@import "blocks/modal";
+@import "blocks/footer";
+@import "blocks/feed";
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/carousel";
+@import "blocks/buttons";
+@import "blocks/advent";
+@import "blocks/consult";
+@import "blocks/_forms";
+@import "blocks/pageup";
+@import "blocks/catalog";
+@import "base/media";
