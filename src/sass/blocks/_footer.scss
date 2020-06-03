@@ -1,6 +1,10 @@
 .footer {
 	position: relative;
 	height: 630px;
+	&__map {
+		width: 100vw;
+		height: 630px;
+	}
 	&__info {
 		padding: 50px 68px 60px 68px;
 		width: 460px;
